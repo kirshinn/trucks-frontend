@@ -1,0 +1,980 @@
+[
+	{
+	  "step": 1,
+	  "description": "Personal Information",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "First name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Middle name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Last name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Suffix",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "SSN / SIN",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Date of birth",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 2,
+	  "description": "Full Address",
+	  "descriptionSecond": "Residence address for the last 3 or more years with Dates",
+	  "fields": [
+		{
+		  "type": "date",
+		  "label": "Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Date",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Address",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Date",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Address",
+		  "required": false,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 3,
+	  "description": "Contact",
+	  "descriptionSecond": "If your cell phone is also your primary phone, enter it in both fields below.",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Primary Phone",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Cell Phone",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Email Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Confirm Email Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Preferred method of contact",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Best time to contact you",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 4,
+	  "description": "",
+	  "fields": [
+		{
+		  "type": "date",
+		  "label": "What date will you be available to start?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_1",
+		  "label": "If hired, can you present evidence of your U.S. Citizenship or proof of your legal right to live and work in this country?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_2",
+		  "label": "Do you read, write, and speak English?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_3",
+		  "label": "Have you ever worked for this company before?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_4",
+		  "label": "Do you have a current TWIC card?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_5",
+		  "label": "Do you have experience with Qualcom operations?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Please enter the names of any relatives employed here",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_6",
+		  "label": "Have you ever used any illegal drug (including marijuana)?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_7",
+		  "label": "Have you ever tested positive, or refused to test on a pre-employment drug or alcohol test by an employer to whom you applied in the past ten years, or have you ever tested positive or refused to test on any mandated drug or alcohol test?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-4_radio-group_8",
+		  "label": "Have you ever been known by any other name?",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 5,
+	  "description": "In case of Emergency, please notify",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Relationship",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Phone Number",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 6,
+	  "description": "Personal References",
+	  "descriptionSecond": "First Reference",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Relationship",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Phone Number",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "License Number",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Country",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "License State/Province",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Original Issue date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "License Expiration",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Physical Expiration",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "label": "Is this your current driver license?",
+		  "name": "step-6_radio-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "label": "Is this a commercial driver license?",
+		  "name": "step-6_radio-group_2",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "Endorsements"
+		},
+		{
+		  "type": "checkbox",
+		  "label": "None",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "checkbox",
+		  "label": "Other",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "checkbox",
+		  "label": "Tanker",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "checkbox",
+		  "label": "Doubles / Triples",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "checkbox",
+		  "label": "X Endorsement",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "checkbox",
+		  "label": "HazMat",
+		  "name": "step-6_checkbox-group_1",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 7,
+	  "description": "Employment History",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Company Name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Start Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "description": "(If you are currently employed/contracted, please enter the current month and year as the End Date)",
+		  "type": "date",
+		  "label": "End Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Contact / Supervisor Name",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Street Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Country",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "City",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "State / Province",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Zip / Postal",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Telephone",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Position Held",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Reason for leaving?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-7_radio-group_1",
+		  "label": "Were you terminated/discharged/laid off?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-7_radio-group_2",
+		  "label": "Is this your current employer?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-7_radio-group_3",
+		  "label": "May we contact this employer at this time?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-7_radio-group_4",
+		  "label": "Did you operate a commercial motor vehicle?",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 8,
+	  "description": "Employment History",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Company Name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Start Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "description": "(If you are currently employed/contracted, please enter the current month and year as the End Date)",
+		  "type": "date",
+		  "label": "End Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Contact / Supervisor Name",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Street Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Country",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "City",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "State / Province",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Zip / Postal",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Telephone",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Position Held",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Reason for leaving?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-8_radio-group_1",
+		  "label": "Were you terminated/discharged/laid off?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-8_radio-group_2",
+		  "label": "Is this your current employer?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-8_radio-group_3",
+		  "label": "May we contact this employer at this time?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-8_radio-group_4",
+		  "label": "Did you operate a commercial motor vehicle?",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 9,
+	  "description": "Employment History",
+	  "fields": [
+		{
+		  "type": "text",
+		  "label": "Company Name",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "date",
+		  "label": "Start Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "description": "(If you are currently employed/contracted, please enter the current month and year as the End Date)",
+		  "type": "date",
+		  "label": "End Date",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Contact / Supervisor Name",
+		  "required": false,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Street Address",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Country",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "City",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "State / Province",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Zip / Postal",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Telephone",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Position Held",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Reason for leaving?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-9_radio-group_1",
+		  "label": "Were you terminated/discharged/laid off?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-9_radio-group_2",
+		  "label": "Is this your current employer?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-9_radio-group_3",
+		  "label": "May we contact this employer at this time?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-9_radio-group_4",
+		  "label": "Did you operate a commercial motor vehicle?",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 10,
+	  "description": "",
+	  "fields": [
+		{
+		  "type": "radio",
+		  "name": "step-10_radio-group_1",
+		  "label": "Were you subject to the Federal Motor Carrier or Transport Canada Safety Regulations while employed/contracted by this employer/contractor?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-10_radio-group_2",
+		  "label": "Did you perform any safety sensitive functions in this job, regulated by DOT, and subject to drug and alcohol testing?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Areas Driven",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Miles driven weekly",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Pay Range (cents / mile)",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Most common truck driven",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Most common trailer",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "text",
+		  "label": "Trailer length",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 11,
+	  "description": "FMCSR",
+	  "fields": [
+		{
+		  "type": "radio",
+		  "name": "step-11_radio-group_1",
+		  "label": "1. Under FMCSR 391.15, are you currently disqualified from driving a commercial motor vehicle? [49 CFR 391.15]",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-11_radio-group_2",
+		  "label": "2. Has your license, permit, or privilege to drive ever been suspended or revoked for any reason? [49 CFR 391.21(b)(9)]",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-11_radio-group_3",
+		  "label": "3. Have you ever been denied a license, permit, or privilege to operate a motor vehicle?[49 CFR 391.21(b)(9)]",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-11_radio-group_4",
+		  "label": "4. Within the past two years, have you tested positive, or refused to test, on a pre-employment drug or alcohol test by an employer to whom you applied, but did not obtain, safety-sensitive transportation work covered by DOT agency drug and alcohol testing rules? [49 CFR 40.25(j)]",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-11_radio-group_5",
+		  "label": "5. In the past three (3) years, have you ever been convicted of any of the following offenses committed during on-duty time [49 C.F.R. 391.15 and 49 C.F.R. 395.2]:",
+		  "label1": "Driving a commercial motor vehicle with a blood alcohol concentration ('BAC') of .04 percent or more",
+		  "label2": "Driving under the influence of alcohol, as prescribed by state law",
+		  "label3": "Refusal to undergo drug and alcohol testing as required by any jurisdiction for the enforcement of Federal Motor Carrier Safety Act regulations",
+		  "label4": "Driving a commercial motor vehicle under the influence of any 21 C.F.R. 1308.11 Schedule I identified controlled substance, an amphetamine, a narcotic drug, a formulation of an amphetamine, or a derivative of a narcotic drug",
+		  "label5": "Transportation, possession, or unlawful use of a 21 C.F.R. 1308.11 Schedule I identified controlled substance, amphetamines, narcotic drugs, formulations of an amphetamine, or derivatives of narcotic drugs while you were on duty driving for a motor carrier",
+		  "label6": "Leaving the scene of an accident while operating a commercial motor vehicle",
+		  "label7": "Or any other felony involving the use of a commercial motor vehicle",
+		  "required": true,
+		  "value": ""
+		}
+	  ]
+	},
+	{
+	  "step": 12,
+	  "description": "By signing my application below, I agree to use an electronic signature to demonstrate my consent. An electronic signature is as legally binding as an ink signature",
+	  "descriptionSecond": "This certifies that this application was completed by me, and that all entries on it and information on it are true and complete to the best of my knowledge.",
+	  "fields": [
+		{
+		  "type": "radio",
+		  "name": "step-12_radio-group_1",
+		  "label": "Have you had any moving violations or traffic convictions in the past 5 Years?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-12_radio-group_2",
+		  "label": "Were you involved in any accidents/incidents with any vehicle in the last 5 years (even if not at fault)?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-12_radio-group_3",
+		  "label": "Have you ever been convicted of a criminal offense?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "radio",
+		  "name": "step-12_radio-group_4",
+		  "label": "Do you currently have any criminal actions pending in which you are a defendant?",
+		  "required": true,
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "By signing my application below, I agree to use an electronic signature to demonstrate my consent. An electronic signature is as legally binding as an ink signature."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "This certifies that this application was completed by me, and that all entries on it and information on it are true and complete to the best of my knowledge."
+		}
+	  ]
+	},
+	{
+	  "step": 13,
+	  "description": "IMPORTANT DISCLOSURE",
+	  "descriptionSecond": "",
+	  "fields": [
+		{
+		  "type": "title",
+		  "value": "REGARDING BACKGROUND REPORTS FROM THE PSP Online Service."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "In connection with your application for employment with Northeast Xpress Inc of Easton,Pa (\"Prospective Employer\"), Prospective Employer, its employees, agents or contractors may obtain one or more reports regarding your driving, and safety inspection history from the Federal Motor Carrier Safety Administration (FMCSA)."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "When the application for employment is submitted in person, if the Prospective Employer uses any information it obtains from FMCSA in a decision to not hire you or to make any other adverse employment decision regarding you, the Prospective Employer will provide you with a copy of the report upon which its decision was based and a written summary of your rights under the Fair Credit Reporting Act before taking any final adverse action. If any final adverse action is taken against you based upon your driving history or safety report, the Prospective Employer will notify you that the action has been taken and that the action was based in part or in whole on this report."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "When the application for employment is submitted by mail, telephone, computer, or other similar means, if the Prospective Employer uses any information it obtains from FMCSA in a decision to not hire you or to make any other adverse employment decision regarding you, the Prospective Employer must provide you within three business days of taking adverse action oral, written or electronic notification: that adverse action has been taken based in whole or in part on information obtained from FMCSA; the name, address, and the toll free telephone number of FMCSA; that the FMCSA did not make the decision to take the adverse action and is unable to provide you the specific reasons why the adverse action was taken; and that you may, upon providing proper identification, request a free copy of the report and may dispute with the FMCSA the accuracy or completeness of any information or report. If you request a copy of a driver record from the Prospective Employer who procured the report, then, within 3 business days of receiving your request, together with proper identification, the Prospective Employer must send or provide to you a copy of your report and a summary of your rights under the Fair Credit Reporting Act."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "Neither the Prospective Employer nor the FMCSA contractor supplying the crash and safety information has the capability to correct any safety data that appears to be incorrect. You may challenge the accuracy of the data by submitting a request to https://dataqs.fmcsa.dot.gov. If you challenge crash or inspection information reported by a State, FMCSA cannot change or correct this data. Your request will be forwarded by the DataQs system to the appropriate State for adjudication."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "Any crash or inspection in which you were involved will display on your PSP report. Since the PSP report does not report, or assign, or imply fault, it will include all Commercial Motor Vehicle (CMV) crashes where you were a driver or co-driver and where those crashes were reported to FMCSA, regardless of fault. Similarly, all inspections, with or without violations, appear on the PSP report. State citations associated with Federal Motor Carrier Safety Regulations (FMCSR) violations that have been adjudicated by a court of law will also appear, and remain, on a PSP report."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "The Prospective Employer cannot obtain background reports from FMCSA without your authorization."
+		},
+		{
+		  "type": "title",
+		  "value": "AUTHORIZATION"
+		},
+		{
+		  "type": "paragraph",
+		  "value": "If you agree that the Prospective Employer may obtain such background reports, please read the following and sign below:"
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I authorize Swift Transportation Co. of Arizona LLC (\"Prospective Employer\") to access the FMCSA Pre-Employment Screening Program (PSP) system to seek information regarding my commercial driving safety record and information regarding my safety inspection history. I understand that I am authorizing the release of safety performance information including crash data from the previous five (5) years and inspection history from the previous three (3) years. I understand and acknowledge that this release of information may assist the Prospective Employer to make a determination regarding my suitability as an employee. "
+		},
+		{
+		  "type": "paragraph",
+		  "value": " further understand that neither the Prospective Employer nor the FMCSA contractor supplying the crash and safety information has the capability to correct any safety data that appears to be incorrect. I understand I may challenge the accuracy of the data by submitting a request to https://dataqs.fmcsa.dot.gov. If I challenge crash or inspection information reported by a State, FMCSA cannot change or correct this data. I understand my request will be forwarded by the DataQs system to the appropriate State for adjudication. "
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I understand that any crash or inspection in which I was involved will display on my PSP report. Since the PSP report does not report, or assign, or imply fault, I acknowledge it will include all CMV crashes where I was a driver or co-driver and where those crashes were reported to FMCSA, regardless of fault. Similarly, I understand all inspections, with or without violations, will appear on my PSP report, and State citations associated with FMCSR violations that have been adjudicated by a court of law will also appear, and remain, on my PSP report. I have read the above Disclosure Regarding Background Reports provided to me by Prospective Employer and I understand that if I sign this Disclosure and Authorization, Prospective Employer may obtain a report of my crash and inspection history. I hereby authorize Prospective Employer and its employees, authorized agents, and/or affiliates to obtain the information authorized above."
+		},
+		{
+		  "type": "signature",
+		  "label": "Signature",
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "* By leaving the signature, I (a) acknowledge that I have read and understand the PSP Disclosure and Authorization and also have been given the opportunity to copy/print it, and (b) agree to use an electronic signature to demonstrate my consent. An electronic signature is as legally binding as an ink signature."
+		}
+	  ]
+	},
+	{
+	  "step": 14,
+	  "description": "BACKGROUND INFORMATION DISCLOSURE AND CONSENT",
+	  "descriptionSecond": "",
+	  "fields": [
+		{
+		  "type": "paragraph",
+		  "value": "In connection with your employment or application for employment (including contract for services) through North, Northeast Xpress Inc Holdings and all subsidiaries and related entities, consumer reports (Investigative Consumer Reports in California) may be requested from Driver IQ and/or Asurint (collectively \"Third Party Providers\"). These reports may include the following types of information: names and dates of previous employers, reasons for termination of employment, work experience, accidents, academic history, professional credentials and drug/alcohol use. Such reports may contain public record information concerning your driving record, workers' compensation claims, credit, bankruptcy proceedings, criminal records, etc. from federal, state and other agencies that maintain such records; as well as information from Third Party Providers concerning previous driving record requests made by others from such state agencies and state provided driving records."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "We also will obtain driving/accident and safety inspection history records maintained by the Federal Motor Carrier Safety Administration (\"FMCSA\"). You have the right to make a request to all potential third parties, upon proper identification, to request the nature and substance of all information in its files on you at the time of your request, including the explaining of any coded information, the sources of information and the recipients of any reports on you that Third Party Providers have previously furnished within the past two year period preceding your request (3 years in California)."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I AUTHORIZE, WITHOUT RESERVATION, THIRD PARTY PROVIDERS, FMCSA AND ANY OTHER PARTY OR AGENCY CONTACTED BY DRIVER IQ AND/OR ASURINT TO FURNISH THE ABOVE MENTIONED INFORMATION. THIS AUTHORIZATION DOES NOT APPLY TO DRUG AND ALCOHOL INFORMATION CONTAINED UNDER PART I."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I hereby consent to your obtaining the above information from Third Party Providers, and I agree that such information which Third Party Providers have or obtain in my employment history (not DOT drug and alcohol information without a specific consent by me) with you if I am hired, will be supplied by Third Party Providers to other companies which subscribe to Third Party Providers. I hereby authorize procurement of consumer reports as set forth above."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "If hired or contracted, this authorization for reports covered by this release only shall remain on file and shall serve as an ongoing authorization for you to procure consumer reports at any time during my employment or contract period."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I consent to you obtaining the above information from FMCSA. I understand that the FMCSA maintains sole control over that data and you cannot change or alter such information. If I dispute any information maintained by FMCSA, I must personally contact the FMCSA by accessing the DataQs System at: https://dataqs.fmcsa.dot.gov."
+		},
+		{
+		  "type": "signature",
+		  "label": "Signature",
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "* By leaving the signature, I represent that I understand and agree to the above FCRA Disclosure and Authorization to Conduct Background Investigation and that I intend to execute this document by electronic signature in checking this box."
+		}
+	  ]
+	},
+	{
+	  "step": 15,
+	  "description": "EMPLOYMENT VERIFICATION ACKNOWLEDGEMENT AND RELEASE",
+	  "descriptionSecond": "",
+	  "fields": [
+		{
+		  "type": "paragraph",
+		  "value": "I hereby authorize you, as a former employer identified by me, to release information to Northeast Xpress Inc Holdings and all subsidiaries and related entities for the purpose of investigation as required by Section 391.23 and allowed by Section 383.35 of the Federal Motor Carrier Safety Administration regulations. This information includes (where applicable): 1) Dates of employment; 2) Position(s) held; 3) Driver type (including whether I was subject to the Federal Motor Carrier Safety Administration regulations and Department of Transportation drug and alcohol testing); 4) Equipment used; 5) Area driven; 6) Whether I was terminated; 7) Whether I am eligible for rehire; 8) Accident information (including accident date, nature of accident, whether it was preventable, whether it was Department of Transportation reportable, whether there were any injuries or fatalities, and whether it involved any hazardous materials); and 9) Drug and Alcohol testing information (including whether I had any alcohol tests with a result of .04 or higher, any verified positive drug tests, whether I refused to be tested, and whether I had any other violations of Department of Transportation drug and alcohol testing regulations). 10) Any non-DOT drug testing information where I have tested positive I hereby expressly release you from any and all liability that may result from furnishing such information to Northeast Xpress Inc Holdings and all subsidiaries and related entities."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I understand and acknowledge that pursuant to Section 391.23(i)(1) of the Federal Motor Carrier Safety Administration regulations, I have a right to review information provided by previous employers, a right to have errors in the information corrected by previous employers and resent to Northeast Xpress Inc Holdings and all subsidiaries and related entities with the corrected information, and the right to have a rebuttal statement attached to any alleged erroneous information, if the previous employer and I cannot agree on the accuracy of the information."
+		},
+		{
+		  "type": "signature",
+		  "label": "Signature",
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "* By leaving the signature, I (a) acknowledge that I have read and understand the PSP Disclosure and Authorization and also have been given the opportunity to copy/print it, and (b) agree to use an electronic signature to demonstrate my consent. An electronic signature is as legally binding as an ink signature."
+		}
+	  ]
+	},
+	{
+	  "step": 16,
+	  "description": "Consent for Limited Queries of the Federal Motor Carrier Safety Administration (FMCSA) Drug and Alcohol Clearinghouse",
+	  "descriptionSecond": "",
+	  "fields": [
+		{
+		  "type": "paragraph",
+		  "value": "I hereby provide consent to Northeast Xpress Inc to conduct a limited query of the FMCSA Commercial Driver’s License Drug and Alcohol Clearinghouse to determine whether drug or alcohol violation information about me exists in the Clearinghouse. I understand this consent shall remain on file and shall serve as ongoing consent for Northeast Xpress Inc to conduct multiple limited queries of the Clearinghouse at any time during my employment or contract period without asking me for additional consent."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I understand that if I refuse to provide consent for Northeast Xpress Inc to conduct a limited query of the Clearinghouse, Northeast Xpress Inc is required to prohibit me from performing safety-sensitive functions, including operating a commercial motor vehicle."
+		},
+		{
+		  "type": "paragraph",
+		  "value": "I understand that if the limited query conducted by Northeast Xpress Inc indicates that drug or alcohol information exists about me in the Clearinghouse, the FMCSA will not disclose that information to Northeast Xpress Inc unless I give additional specific consent within the Clearinghouse. However, I understand that Northeast Xpress Inc will be required to conduct a full query of the Clearinghouse within 24 hours after a limited query indicates that drug or alcohol information exists and that if I do not grant consent within the Clearinghouse for that full query I will be removed from performing safety-sensitive functions, including operating a commercial motor vehicle."
+		},
+		{
+		  "type": "signature",
+		  "label": "Signature",
+		  "value": ""
+		},
+		{
+		  "type": "paragraph",
+		  "value": "* By leaving the signature, I (a) acknowledge that I have read and understand the PSP Disclosure and Authorization and also have been given the opportunity to copy/print it, and (b) agree to use an electronic signature to demonstrate my consent. An electronic signature is as legally binding as an ink signature."
+		}
+	  ]
+	}
+  ]
+  

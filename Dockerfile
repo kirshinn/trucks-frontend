@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:12
 
 # устанавливаем простой HTTP-сервер для статики
 RUN npm install -g http-server

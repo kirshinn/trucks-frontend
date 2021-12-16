@@ -17,22 +17,13 @@ require('./assets/css/styles.css');
 Vue.use(DatePicker);
 Vue.use(vueSignature);
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyCFcObRTHR0gnMtTWEdIKazHEaL3eDIHik',
-  authDomain: 'trucks-nx.firebaseapp.com',
-  databaseURL: 'https://trucks-nx.firebaseio.com',
-  projectId: 'trucks-nx',
-  storageBucket: 'trucks-nx.appspot.com',
-  messagingSenderId: '889346311012',
-  appId: '1:889346311012:web:e7041805342e892da73071',
-  measurementId: 'G-PVSBMTZHQ2',
-};
+const firebaseConfig = {};
 
 firebase.initializeApp(firebaseConfig);
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyC-xWvuu3wzo9JCTzfBjwX05ufyBdT1hlk',
+    key: 'AIzaSyCImWLz8klqZL26xTOk4KrUWGBqR9s_sMQ',
     libraries: 'places',
   },
   installComponents: true,

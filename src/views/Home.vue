@@ -25,7 +25,7 @@
         </div>
 
         <footer>
-          &copy; 2020 {{ company }}
+          &copy; {{ new Date().getFullYear() }} {{ company }}
         </footer>
 
       </main>

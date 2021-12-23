@@ -298,17 +298,16 @@ export default {
       input.dispatchEvent(new Event('input'))
 		},
     submit() {
-
       // removing red borders
       let inp = document.getElementsByTagName('input'),
           dateInp = document.getElementById(`date-${this.step}`),
           radios = document.querySelectorAll(`label.radio`),
           checkboxes = document.querySelectorAll(`label.checkbox`)
 
-      inp.forEach( el => el.removeAttribute("style") )
-      if(dateInp) dateInp.children[0].children[0].removeAttribute("style")
-      radios.forEach( el => el.removeAttribute("style") )
-      checkboxes.forEach( el => el.removeAttribute("style") )
+      // if (inp) inp.forEach(el => el.removeAttribute("style"))
+      if (dateInp) dateInp.children[0].children[0].removeAttribute("style")
+      if (radios) radios.forEach(el => el.removeAttribute("style"))
+      if (checkboxes) checkboxes.forEach(el => el.removeAttribute("style"))
 
       // getting prev step form
       Object.keys(this.$refs).forEach( refStep => {

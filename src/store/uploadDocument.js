@@ -9,7 +9,7 @@ export default {
     async upload({ dispatch }, { username, typeDocument, url }) {
       await firebase
         .database()
-        .ref('/documents')
+        .ref('/uploads')
         .push()
         .set({
           username,

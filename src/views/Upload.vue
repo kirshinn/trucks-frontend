@@ -117,12 +117,10 @@ export default {
       this.upload()
     },
     async upload() {
-      if(this.errors.length < 1) {
-        this.uploading = true
+      if (this.errors.length < 1) {
         this.fullname = Date.now() + "_" + this.typeDocument + "_" + this.username + '.' + this.extension
-
-        const storageRef = firebase.storage().ref("documents/" + this.fullname)
-        this.url = await storageRef.put(this.blob).then(function(result) {
+        const storageRef = firebase.storage().ref("upload/" + this.fullname)
+        this.url = await storageRef.put(this.blob).then(() => {
           return storageRef.getDownloadURL().then(data => {
             return data
           })
@@ -140,17 +138,22 @@ export default {
         } catch(e) {
           this.uploadStatus = `<span style="color: red">Upload error: ${e}</span>`
         }
-        await axios.post("https://trucks-backend-v1.herokuapp.com/send-document", {
-          username: this.username,
-          typeDocument: this.typeDocument,
-          url: this.url
-          })
-          .then(response => {
-            console.log(response)
-          })
-          .catch(e => {
-            console.log(e)
-          })
+
+        /**
+         await axios.post("https://trucks-backend-v1.herokuapp.com/send-document", {
+            username: this.username,
+            typeDocument: this.typeDocument,
+            url: this.url
+            })
+         .then(response => {
+              console.log(response)
+            })
+         .catch(e => {
+              console.log(e)
+            })
+         **/
+
+        this.uploading = true
       }
     }
   }

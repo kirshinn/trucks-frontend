@@ -17,7 +17,16 @@ require('./assets/css/styles.css');
 Vue.use(DatePicker);
 Vue.use(vueSignature);
 
-const firebaseConfig = {};
+const firebaseConfig = {
+  apiKey: 'AIzaSyCwkq2NOYU1eEySIYJKdkIqoUVyUyZ1xA0',
+  authDomain: 'trucks-xpress.firebaseapp.com',
+  databaseURL: 'https://trucks-xpress-default-rtdb.firebaseio.com',
+  projectId: 'trucks-xpress',
+  storageBucket: 'trucks-xpress.appspot.com',
+  messagingSenderId: '330881163734',
+  appId: '1:330881163734:web:0add4296da4d72d354c477',
+  measurementId: 'G-QCZRCFH7HZ',
+};
 
 firebase.initializeApp(firebaseConfig);
 

@@ -30,7 +30,7 @@
             </ul>
 
             <!-- eslint-disable-next-line -->
-            <p>Required entry fields are followed by *, meaning you must provide the requested information to continue. If you encounter any errors during this process and cannot continue, please contact us at 347-626-9658.</p>
+            <p>Required entry fields are followed by *, meaning you must provide the requested information to continue. If you encounter any errors during this process and cannot continue, please contact us at 484-484-6666.</p>
             <div class="buttons">
               <button class="btn-next" @click="preApplicationPage = false">Next</button>
             </div>

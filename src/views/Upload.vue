@@ -139,19 +139,18 @@ export default {
           this.uploadStatus = `<span style="color: red">Upload error: ${e}</span>`
         }
 
-        /**
-         await axios.post("https://trucks-backend-v1.herokuapp.com/send-document", {
+         await axios.post("https://trucks-xpress.herokuapp.com/document", {
             username: this.username,
-            typeDocument: this.typeDocument,
+            type: this.typeDocument,
             url: this.url
             })
          .then(response => {
-              console.log(response)
+              console.log('success!')
+              // console.log(response)
             })
          .catch(e => {
               console.log(e)
             })
-         **/
 
         this.uploading = true
       }

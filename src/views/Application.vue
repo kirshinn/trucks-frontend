@@ -238,7 +238,7 @@
 /* eslint-disable */
 import axios from 'axios'
 import firebase from 'firebase'
-import { mapState, mapMutations, mapGetters } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 
 export default {
   data() {
@@ -257,11 +257,11 @@ export default {
     ...mapMutations(['prevStep', 'nextStep']),
 
     b64toBlob(dataURI) {
-      var byteString = atob(dataURI.split(',')[1]);
-      var ab = new ArrayBuffer(byteString.length);
-      var ia = new Uint8Array(ab);
+      const byteString = atob(dataURI.split(',')[1]);
+      const ab = new ArrayBuffer(byteString.length);
+      const ia = new Uint8Array(ab);
 
-      for (var i = 0; i < byteString.length; i++) {
+      for (let i = 0; i < byteString.length; i++) {
           ia[i] = byteString.charCodeAt(i);
       }
 
@@ -328,7 +328,7 @@ export default {
                     let group = input.attributes.name.value,
                         selected = document.querySelectorAll(`[name=${group}]:checked`)
 
-                    if( selected.length == 0 ) {
+                    if( selected.length === 0 ) {
                       document.querySelectorAll(`label.${group}`).forEach(r => {
                         r.style.color = 'red'
                       })
@@ -365,12 +365,12 @@ export default {
         const data = JSON.parse(this.worksheet).applicationData.data
         const filename = `${data[0].fields[0].value}_${data[0].fields[1].value}_${data[0].fields[2].value} (${new Date(Date.now())})`
 
-        await axios.post('https://datastore.website/generate', { filename, data })
+        await axios.post('https://trucks-xpress.herokuapp.com/contract', { filename, data })
         await this.$store.dispatch('uploadWorksheet', { worksheet: this.worksheet })
 
         console.log('success uploading')
 
-        this.$router.push('/')
+        await this.$router.push('/')
         location.reload()
         localStorage.removeItem('vuex')
       } catch (error) {
